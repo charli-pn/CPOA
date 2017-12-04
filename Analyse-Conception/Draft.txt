@@ -1,0 +1,10 @@
+Brouillon pour dire ce qu'on veut faire dans ce rapport
+
+Partie WEB :
+(Cha s'occupe des maquettes)
+Utilisation du Framework Materialize pour le CSS
+Possible utilisation du Framework Symfony (si j'arrive à l'installer)
+
+
+Partie Java :
+Maquettes ? Définir qui s'en occupe
