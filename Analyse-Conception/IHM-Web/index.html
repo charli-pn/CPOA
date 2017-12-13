@@ -10,12 +10,15 @@
         <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen"/>
     </head>
     
-<body class="grey lighten-2">
+<body class="grey lighten-4">
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="assets/js/materialize.min.js"></script>
     <script type="text/javascript" src="assets/js/materialize.js"></script>
     <script>$(document).ready(function(){$('.carousel').carousel();});</script>
     <script>$('.carousel.carousel-slider').carousel({fullWidth: true});</script>
+    <script>$(document).ready(function(){
+      $('.slider').slider();
+    });</script>
     
     <!-- Navigation -->
     <nav class="teal" role="navigation nav-extended">
@@ -35,11 +38,14 @@
     <!--Carousel -->
     <div class="section ">
         
-        <div class="carousel carousel-slider">
+        <div class="slider">
+            <ul class="slides">
+                <li><img src="assets/Images/tennis.jpg" alt=""></li>
             
-            <a class="carousel-item" href="#one!"><img src="assets/Images/tennis.jpg" alt=""></a>
-            <a class="carousel-item" href="#two!"><img src="assets/Images/tennis2.jpg" alt=""></a>
-            <a class="carousel-item" href="#three!"><img src="assets/Images/tennis3.jpeg" alt=""></a>
+                <li><img src="assets/Images/tennis2.jpg" alt=""></li>
+            
+                <li><img src="assets/Images/tennis3.jpeg" alt=""></li>
+            </ul>
             
         </div>
         
