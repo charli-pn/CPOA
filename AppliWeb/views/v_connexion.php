@@ -17,6 +17,7 @@
 			<br/><br/>
 			
 			<div class="input-field col m4 s12  ">
+				<i class="material-icons prefix">lock</i>
 				<input name = 'pwd' id = 'pwd' type="password" class="validate">
 				<label for="pwd"><?=LABEL_PWD?></label>
 			</div>

@@ -2,6 +2,8 @@
 
 <?php require_once(PATH_VIEWS.'alert.php'); ?>
 
-<p>Les grenouilles aiment le pain</p>
+<div class="container">
+	<p>Les grenouilles aiment le pain</p>
+</div>
 
 <?php require_once(PATH_VIEWS.'footer.php'); ?>

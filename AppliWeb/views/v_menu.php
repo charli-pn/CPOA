@@ -21,7 +21,7 @@
 			<?php
 			if (isset($_SESSION["logged"]) && $_SESSION["logged"]) { ?>
 				<li <?= ($page == 'connexion') ? 'class="active"' : '' ?>>
-					<a href="">
+					<a href="index.php?page=modifprix.php">
 						<?=ADMIN ?>
 					</a>
 				</li>
