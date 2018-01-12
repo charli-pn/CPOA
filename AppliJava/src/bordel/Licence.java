@@ -1,23 +1,21 @@
 /***********************************************************************
- * Module:  Titulaire.java
+ * Module:  Licence.java
  * Author:  Ilan
- * Purpose: Defines the Class Titulaire
+ * Purpose: Defines the Class Licence
  ***********************************************************************/
 
 import java.util.*;
 
-/** @pdOid df50b15b-79ea-470a-b32b-29354b61e4d7 */
-public class Titulaire {
-   /** @pdOid e9f29c86-bc55-473d-9072-8b9dc93464bd */
-   public int idTitulaire;
-   /** @pdOid aee6eb7d-4e88-4d0e-b116-d50f9cf7478b */
-   public java.lang.String nomTitulaire;
-   /** @pdOid 181fe4c2-9f02-42a8-b2bf-99aa96e4cbc2 */
-   public java.lang.String prenomTitulaire;
-   /** @pdOid 65218d1f-95df-4923-9c1f-04b00a8ef252 */
-   public java.lang.String mailTitulaire;
+/** @pdOid 6057397c-95a1-4cb4-ba0b-1a15f8b98650 */
+public class Licence {
+   /** @pdOid d43e991b-afc5-4046-8dc5-c2d78b8bb78b */
+   public int numLicence;
+   /** @pdOid c70ba6c1-10e9-49f8-9ebb-267a97bf21d5 */
+   public java.lang.String nomLicencie;
+   /** @pdOid 37787a65-67b2-4e89-a166-512d70c5a7a5 */
+   public java.lang.String prenomLicencie;
    
-   /** @pdRoleInfo migr=no name=Billet assc=reference3 coll=java.util.Collection impl=java.util.HashSet mult=0..* */
+   /** @pdRoleInfo migr=no name=Billet assc=reference2 coll=java.util.Collection impl=java.util.HashSet mult=0..* */
    public java.util.Collection<Billet> billet;
    
    
@@ -53,7 +51,7 @@ public class Titulaire {
       if (!this.billet.contains(newBillet))
       {
          this.billet.add(newBillet);
-         newBillet.setTitulaire(this);      
+         newBillet.setLicence(this);      
       }
    }
    
@@ -66,7 +64,7 @@ public class Titulaire {
          if (this.billet.contains(oldBillet))
          {
             this.billet.remove(oldBillet);
-            oldBillet.setTitulaire((Titulaire)null);
+            oldBillet.setLicence((Licence)null);
          }
    }
    
@@ -79,7 +77,7 @@ public class Titulaire {
          {
             oldBillet = (Billet)iter.next();
             iter.remove();
-            oldBillet.setTitulaire((Titulaire)null);
+            oldBillet.setLicence((Licence)null);
          }
       }
    }

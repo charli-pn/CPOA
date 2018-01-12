@@ -1,23 +1,21 @@
 /***********************************************************************
- * Module:  Titulaire.java
+ * Module:  CodePromo.java
  * Author:  Ilan
- * Purpose: Defines the Class Titulaire
+ * Purpose: Defines the Class CodePromo
  ***********************************************************************/
 
 import java.util.*;
 
-/** @pdOid df50b15b-79ea-470a-b32b-29354b61e4d7 */
-public class Titulaire {
-   /** @pdOid e9f29c86-bc55-473d-9072-8b9dc93464bd */
-   public int idTitulaire;
-   /** @pdOid aee6eb7d-4e88-4d0e-b116-d50f9cf7478b */
-   public java.lang.String nomTitulaire;
-   /** @pdOid 181fe4c2-9f02-42a8-b2bf-99aa96e4cbc2 */
-   public java.lang.String prenomTitulaire;
-   /** @pdOid 65218d1f-95df-4923-9c1f-04b00a8ef252 */
-   public java.lang.String mailTitulaire;
+/** @pdOid 28f3fec4-1bd3-4e2b-a44e-dbcda5aa2018 */
+public class CodePromo {
+   /** @pdOid 409fba30-4bc5-4185-af5b-3ba2f643832f */
+   public java.lang.String code;
+   /** @pdOid 633de8fd-b224-4cd7-90b1-75b7e5b06c2f */
+   public int qteMax;
+   /** @pdOid 26d6c0f7-f068-4a1d-bc28-89515c123e67 */
+   public float reduction;
    
-   /** @pdRoleInfo migr=no name=Billet assc=reference3 coll=java.util.Collection impl=java.util.HashSet mult=0..* */
+   /** @pdRoleInfo migr=no name=Billet assc=reference4 coll=java.util.Collection impl=java.util.HashSet mult=0..* */
    public java.util.Collection<Billet> billet;
    
    
@@ -53,7 +51,7 @@ public class Titulaire {
       if (!this.billet.contains(newBillet))
       {
          this.billet.add(newBillet);
-         newBillet.setTitulaire(this);      
+         newBillet.setCodePromo(this);      
       }
    }
    
@@ -66,7 +64,7 @@ public class Titulaire {
          if (this.billet.contains(oldBillet))
          {
             this.billet.remove(oldBillet);
-            oldBillet.setTitulaire((Titulaire)null);
+            oldBillet.setCodePromo((CodePromo)null);
          }
    }
    
@@ -79,7 +77,7 @@ public class Titulaire {
          {
             oldBillet = (Billet)iter.next();
             iter.remove();
-            oldBillet.setTitulaire((Titulaire)null);
+            oldBillet.setCodePromo((CodePromo)null);
          }
       }
    }
