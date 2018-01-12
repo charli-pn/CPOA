@@ -1,13 +1,13 @@
 /***********************************************************************
- * Module:  Billet.java
+ * Module:  CodePromotionnel.java
  * Author:  Admin
- * Purpose: Defines the Class Billet
+ * Purpose: Defines the Class CodePromotionnel
  ***********************************************************************/
 
-package web;
+package bordel;
 
 import java.util.*;
 
-/** @pdOid 21688866-ac02-4d50-8884-146154473935 */
-public class Billet {
+/** @pdOid 16b04798-9438-4e8f-be8d-aeb514c65493 */
+public class CodePromotionnel {
 }

@@ -1,13 +1,13 @@
 /***********************************************************************
- * Module:  BilletLicencie.java
+ * Module:  Licencie.java
  * Author:  Admin
- * Purpose: Defines the Class BilletLicencie
+ * Purpose: Defines the Class Licencie
  ***********************************************************************/
 
-package web;
+package bordel;
 
 import java.util.*;
 
-/** @pdOid 02ba37c1-43f8-4583-823b-a46fb0a018f7 */
-public class BilletLicencie extends Billet {
+/** @pdOid a4b8d5cd-05b8-4b30-93b1-99407f300058 */
+public class Licencie {
 }

@@ -4,7 +4,7 @@
  * Purpose: Defines the Class Match
  ***********************************************************************/
 
-package web;
+package bordel;
 
 import java.util.*;
 

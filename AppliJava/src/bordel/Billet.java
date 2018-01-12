@@ -1,13 +1,13 @@
 /***********************************************************************
- * Module:  Titulaire.java
+ * Module:  Billet.java
  * Author:  Admin
- * Purpose: Defines the Class Titulaire
+ * Purpose: Defines the Class Billet
  ***********************************************************************/
 
-package web;
+package bordel;
 
 import java.util.*;
 
-/** @pdOid 1b887558-52ac-4fa3-875b-afa07cbbce94 */
-public class Titulaire {
+/** @pdOid 21688866-ac02-4d50-8884-146154473935 */
+public class Billet {
 }

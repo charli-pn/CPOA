@@ -1,13 +1,13 @@
 /***********************************************************************
- * Module:  CodePromotionnel.java
+ * Module:  TennisMan.java
  * Author:  Admin
- * Purpose: Defines the Class CodePromotionnel
+ * Purpose: Defines the Class TennisMan
  ***********************************************************************/
 
-package web;
+package bordel;
 
 import java.util.*;
 
-/** @pdOid 16b04798-9438-4e8f-be8d-aeb514c65493 */
-public class CodePromotionnel {
+/** @pdOid 784b3a6f-15dc-4b0a-991f-d5db8bc8b679 */
+public class TennisMan {
 }

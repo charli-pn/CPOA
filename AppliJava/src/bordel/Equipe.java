@@ -1,13 +1,13 @@
 /***********************************************************************
- * Module:  TennisMan.java
+ * Module:  Equipe.java
  * Author:  Admin
- * Purpose: Defines the Class TennisMan
+ * Purpose: Defines the Class Equipe
  ***********************************************************************/
 
-package web;
+package bordel;
 
 import java.util.*;
 
-/** @pdOid 784b3a6f-15dc-4b0a-991f-d5db8bc8b679 */
-public class TennisMan {
+/** @pdOid f575f024-a410-4b1c-a0ea-462e82ce4390 */
+public class Equipe {
 }

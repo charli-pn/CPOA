@@ -1,13 +1,13 @@
 /***********************************************************************
- * Module:  Panier.java
+ * Module:  MatchDouble.java
  * Author:  Admin
- * Purpose: Defines the Class Panier
+ * Purpose: Defines the Class MatchDouble
  ***********************************************************************/
 
-package web;
+package bordel;
 
 import java.util.*;
 
-/** @pdOid 967e24e4-dc06-4f1d-916b-1eaa5e58fc39 */
-public class Panier {
+/** @pdOid 7d568faa-651a-4538-ad5d-d483b8e0834e */
+public class MatchDouble extends Match {
 }
