@@ -4,6 +4,7 @@
 
 <div class="container">
 	<p>Les grenouilles aiment le pain</p>
+	/*slider*/
 </div>
 
 <?php require_once(PATH_VIEWS.'footer.php'); ?>
