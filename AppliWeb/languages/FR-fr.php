@@ -45,19 +45,9 @@ define('TITRE_CONNEXION', 'Connexion avec identifiant et mot de passe');
 define('LABEL_ID','Identifiant');
 define('LABEL_PWD', 'Mot de Passe');
 
-// Ajout Photo
-define('MENU_AJOUT_PHOTO', 'Ajouter une photo');
-define('INSERER_FICHIER','Choisissez un fichier : ');
-define('AIDE_INSERTION', 'Limite de taille de 100Ko. Format JPEG, PNG, GIF');
-define('DESCRIPTION_INSERTION', 'Décrivez la photo : ');
-define('CATEGORIE_INSERTION', 'Catégorie : ');
-define('TITRE_AJOUT', 'Quelle photo souhaitez vous ajouter ?');
-define('CHOIX_CATEGORIE', 'Veuillez choisir une catégorie');
-
-//Ajout Categorie
-define('MENU_AJOUT_CAT', 'Ajouter une catégorie');
-define('TITRE_PAGE_AJOUT_CATEGORIE', 'Ajout d\'une nouvelle categorie');
-define('NOUVELLE_CATEGORIE', 'Nom de la catégorie :');
+//Changer Prix 
+define('MISS_PRICE', 'Veuillez remplir toutes les catégories de prix');
+define('MODIF_EFFECTED', 'Modification Effectuée. Redirection en cours...');
 
 
 

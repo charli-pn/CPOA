@@ -41,19 +41,19 @@
 		<div class = "row teal-text">
 			<div class="col s3">
 				<h5 class="center">Niveau 0</h5>
-				<div class="input-field"><input type="number"  value="<?=$affichPrix['PrixNiveau0']?>"></div>
+				<div class="input-field"><input type="number"  value="<?=$affichPrix['PrixNiveau0']?>" name="prix0" ></div>
 			</div>
 			<div class="col s3">
 				<h5 class="center">Niveau 1</h5>
-				<div class="input-field"><input type="number"  value="<?=$affichPrix['PrixNiveau1']?>"></div>
+				<div class="input-field"><input type="number"  value="<?=$affichPrix['PrixNiveau1']?>" name="prix1"></div>
 			</div>
 			<div class="col s3">
 				<h5 class="center">Niveau 2</h5>
-				<div class="input-field"><input type="number"  value="<?=$affichPrix['PrixNiveau2']?>"></div>
+				<div class="input-field"><input type="number"  value="<?=$affichPrix['PrixNiveau2']?>" name="prix2"></div>
 			</div>
 			<div class="col s3">
 				<h5 class="center">Niveau 3</h5>
-				<div class="input-field"><input type="number"  value="<?=$affichPrix['PrixNiveau3']?>"></div>
+				<div class="input-field"><input type="number"  value="<?=$affichPrix['PrixNiveau3']?>" name="prix3"></div>
 			</div>
 		</div>
 		<button class="btn waves-effect waves-light right" type="submit" name="action">Modifier les prix</button>
