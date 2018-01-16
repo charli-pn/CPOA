@@ -49,6 +49,30 @@ function choixAlert($message)
 		$alert['messageAlert'] = MODIF_EFFECTED;
 		$alert['classAlert'] = 'success';
 		break;  
+	case 'placemaxover' :
+		$alert['messageAlert'] = MAX_OVER;
+		$alert['classAlert'] = 'danger';
+		break;
+	case 'codedetruit' :
+		$alert['messageAlert'] = CODE_DETRUIT;
+		$alert['classAlert'] = 'success';
+		break;
+	case 'ajoute' :
+		$alert['messageAlert'] = CODE_AJOUTE;
+		$alert['classAlert'] = 'success';
+		break;  
+	case 'pbqte' :
+		$alert['messageAlert'] = PB_QTE;
+		$alert['classAlert'] = 'danger';
+		break;
+	case 'pbreduc' :
+		$alert['messageAlert'] = PB_REDUC;
+		$alert['classAlert'] = 'danger';
+		break;
+	case 'pbnom' :
+		$alert['messageAlert'] = PB_NOM;
+		$alert['classAlert'] = 'danger';
+		break;
 	default :
 	  $alert['messageAlert'] = MESSAGE_ERREUR;
   }

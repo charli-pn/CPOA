@@ -54,23 +54,23 @@
 			</table>
 		</div>
 	</div>
-	<h4 class="teal-text text-darken-1 center">Changer les prix</h4>
+	<h4 class="teal-text text-darken-1 center">Changer le nombre de places</h4>
 	<form method="post">
 		<div class = "row teal-text">
 			<div class="col s4">
 				<h5 class="center">Licenciés</h5>
-				<div class="input-field"><input type="number"  value="<?=$affichPrix['placeLicencie']?>" name="prix1"></div>
+				<div class="input-field"><input type="number"  value="<?=$affichPrix['placeLicencie']?>" name="placeLicencie"></div>
 			</div>
 			<div class="col s4">
 				<h5 class="center">Journée de la Solidarité</h5>
-				<div class="input-field"><input type="number"  value="<?=$affichPrix['placeSolidarite']?>" name="prix2"></div>
+				<div class="input-field"><input type="number"  value="<?=$affichPrix['placeSolidarite']?>" name="placeSolidarite"></div>
 			</div>
 			<div class="col s4">
 				<h5 class="center">Codes Promo</h5>
-				<div class="input-field"><input type="number"  value="<?=$affichPrix['placePromo']?>" name="prix3"></div>
+				<div class="input-field"><input type="number"  value="<?=$affichPrix['placePromo']?>" name="placePromo"></div>
 			</div>
 		</div>
-		<button class="btn waves-effect waves-light right" type="submit" name="action">Modifier les prix</button>
+		<button class="btn waves-effect waves-light right" type="submit" name="action">Modifier les disponibilités</button>
 	</form>
 	<br/><br/>
 </div>

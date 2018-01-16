@@ -14,6 +14,18 @@ $affichPrix = $prix -> getPrixbyID($_GET['id']);
 $infosTerrain = $terrain -> getTerrainbyID($affichMatch['idTerrain']);
 $nbPlacesTotal = $terrain -> getNbPlacesTerrain($infosTerrain['idTerrain']);
 
+if (isset($_POST['action'])){
+	if (($_POST['placeLicencie']+$_POST['placeSolidarite']+$_POST['placePromo']) <= $nbPlacesTotal['somme']){
+		if ($prix -> setPlacesbyID($infosTerrain['idTerrain'],$_POST['placeLicencie'],$_POST['placeSolidarite'],$_POST['placePromo'])){
+			$alert = choixAlert('modifeffected');
+			?><meta http-equiv="refresh" content="2; URL=index.php?page=nbplacescateg"><?php
+		} else {
+			$alert = choixAlert('messageAlert');
+		}
+	} else {
+		$alert = choixAlert('placemaxover');
+	}
+}
 
 
 

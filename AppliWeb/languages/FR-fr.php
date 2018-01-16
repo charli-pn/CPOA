@@ -49,6 +49,14 @@ define('LABEL_PWD', 'Mot de Passe');
 define('MISS_PRICE', 'Veuillez remplir toutes les catégories de prix');
 define('MODIF_EFFECTED', 'Modification Effectuée. Redirection en cours...');
 
+//Changer nb places
+define('MAX_OVER', 'Vous ne pouvez pas remplir plus que le nombre de places disponibles');
+
+define ('CODE_DETRUIT', 'Le code a bien été détruit. Redirection en cours...');
+define('CODE_AJOUTE','Le code a bien été ajouté. Redirection en cours...');
+define('PB_QTE', 'La quantité doit être un nombre supérieur à 0.');
+define('PB_REDUC', 'La réduction doit être comprise entre 0 et 100.');
+define('PB_NOM', 'Le nom doit être renseigné.');
 
 
 

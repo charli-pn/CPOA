@@ -15,7 +15,7 @@
 				<a href=''>Partenaires</a>
 			</li>
 			<li>
-				<a href=''>Billetterie</a>
+				<a href='index.php?page=billetterie'>Billetterie</a>
 			</li>
 
 			<?php
