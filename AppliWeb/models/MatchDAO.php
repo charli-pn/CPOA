@@ -11,5 +11,6 @@ class MatchDAO extends DAO {
 	public function getMatchbyID($ID){
 		return $this -> queryRow('SELECT * FROM `match` WHERE `idMatch`= ?', array($ID));
 	}
+	
 }
 ?>
